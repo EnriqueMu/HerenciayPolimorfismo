@@ -14,8 +14,13 @@ public class Figura
        area = 0;
     }
     
-    public double accedeArea()
+   public double accedeArea()
+   {
+       return area;
+   }
+   
+   public void area()
     {
-        return area;
+        System.out.println("UUPS");
     }
 }
