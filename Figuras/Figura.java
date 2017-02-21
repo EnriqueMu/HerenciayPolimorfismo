@@ -7,14 +7,14 @@
  */
 public class Figura
 {
-   protected float area;
+   protected double area;
    
    public Figura()
    {
        area = 0;
     }
     
-    public float accedeArea()
+    public double accedeArea()
     {
         return area;
     }

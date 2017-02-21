@@ -11,6 +11,14 @@ public class Principal
    {
        Triangulo t1 = new Triangulo (3,4);
        t1.area();
-       System.out.println("El are del Triangulo es: " + t1.accedeArea());
+       System.out.println("El area del Triangulo es: " + t1.accedeArea());
+       
+       Cuadrado s1 = new Cuadrado (4);
+       s1.area();
+       System.out.println("El area del Cuadrado es: " + s1.accedeArea());
+       
+       Circulo c1 = new Circulo(2);
+       c1.area();
+       System.out.println("El area del Circulo es: " + c1.accedeArea());
     }
 }
