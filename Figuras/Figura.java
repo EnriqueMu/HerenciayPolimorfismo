@@ -23,4 +23,9 @@ public class Figura
     {
        // System.out.println("UUPS");
     }
+    
+    public String dimeInfo()
+    {
+        return "" + area;
+    }
 }
