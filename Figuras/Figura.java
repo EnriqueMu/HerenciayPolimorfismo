@@ -21,6 +21,6 @@ public class Figura
    
    public void area()
     {
-        System.out.println("UUPS");
+       // System.out.println("UUPS");
     }
 }
