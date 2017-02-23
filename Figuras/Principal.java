@@ -48,7 +48,7 @@ public class Principal
         {
             //System.out.println("El area del "  +  f+"es: "  +  f.accedeArea());
             //System.out.println(f);
-            System.out.println(f.dimeInfo());
+            System.out.println(f);
         }
         
         Iterator <Figura> it = figuras.iterator();

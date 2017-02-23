@@ -18,4 +18,10 @@ public class Cuadrado extends Figura
     {
         area = lado*lado;
     }
+    
+     @Override
+    public String toString()
+    {
+        return "Cuadrado con area = " + super.toString();
+    }
 }

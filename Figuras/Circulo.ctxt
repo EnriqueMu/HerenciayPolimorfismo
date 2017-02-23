@@ -4,5 +4,6 @@ comment0.target=Circulo(float)
 comment1.params=
 comment1.target=void\ area()
 comment2.params=
-comment2.target=java.lang.String\ dimeInfo()
+comment2.target=java.lang.String\ toString()
+comment2.text=public\ String\ dimeInfo()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ return\ "Circulo\ "\ +\ super.dimeInfo();\r\n}
 numComments=3
