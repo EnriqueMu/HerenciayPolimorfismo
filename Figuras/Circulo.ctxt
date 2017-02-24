@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.params=r
 comment0.target=Circulo(float)
-comment1.params=
-comment1.target=void\ area()
+comment1.params=obj
+comment1.target=boolean\ equals(java.lang.Object)
 comment2.params=
-comment2.target=java.lang.String\ toString()
-comment2.text=public\ String\ dimeInfo()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ return\ "Circulo\ "\ +\ super.dimeInfo();\r\n}
-numComments=3
+comment2.target=void\ area()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=public\ String\ dimeInfo()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ return\ "Circulo\ "\ +\ super.dimeInfo();\r\n}
+numComments=4

@@ -10,8 +10,8 @@ public class Principal
 {
    public static void main(String [] args)
    {
-       Triangulo t1 = new Triangulo (3,4);
-       t1.area();
+       Triangulo t1 = new Triangulo (4,5);
+       //t1.area();
        //System.out.println("El area del Triangulo es: " + t1.accedeArea());
        
        Cuadrado s1 = new Cuadrado (4);
@@ -19,14 +19,15 @@ public class Principal
        //System.out.println("El area del Cuadrado es: " + s1.accedeArea());
        
        Circulo c1 = new Circulo(3);
-       c1.area();
+       Circulo c2 = new Circulo(3);
+//       c1.area();
        //System.out.println("El area del Circulo es: " + c1.accedeArea());
        
-       ArrayList <Figura> figuras = new ArrayList <Figura>();
+       /*ArrayList <Figura> figuras = new ArrayList <Figura>();
        
        figuras.add(t1);
        figuras.add(s1);
-       figuras.add(c1);
+       figuras.add(c1);*/
        
        
        /*for(int i=0;i<figuras.length;i++){
@@ -44,14 +45,14 @@ public class Principal
             f.area();
         }*/
         
-        for(Figura f: figuras)
+       /* for(Figura f: figuras)
         {
             //System.out.println("El area del "  +  f+"es: "  +  f.accedeArea());
             //System.out.println(f);
             System.out.println(f);
-        }
+        }*/
         
-        Iterator <Figura> it = figuras.iterator();
+        //Iterator <Figura> it = figuras.iterator();
         
        /* while(it.hasNext())
         {
@@ -61,7 +62,14 @@ public class Principal
             System.out.println("El area del "  +  f+" es: "  +  f.accedeArea());
         }*/
         
-        
+        if(c1.equals(t1))
+        {
+            System.out.println("Iguales");
+        }   
+        else
+        {
+            System.out.println("Diferentes");
+        }
     }
            
 }

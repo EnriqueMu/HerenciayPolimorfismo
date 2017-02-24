@@ -14,6 +14,19 @@ public class Circulo extends Figura
         radio = r;
     }
     
+    @Override
+    public boolean equals(Object obj)
+    {
+        if(obj instanceof Circulo)
+        {
+            return this.radio==((Circulo)obj).radio;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
     public void area()
     {
         area = (radio*radio*3.1416);
