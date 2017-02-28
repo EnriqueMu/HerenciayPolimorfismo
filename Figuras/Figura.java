@@ -1,20 +1,38 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Figura here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Figura
+abstract public class Figura
 {
-   protected double area;
+   //protected double area;
    
-   public Figura()
+   private int posx;
+   private int posy;
+   
+   public Figura(int x, int y)
    {
-       area = 0;
+       //area = 0;
+       
+       posx = x;
+       posy = y;
     }
     
-   public double accedeArea()
+    protected int dimeX()
+    {
+        return posx;
+    }
+    
+    protected int dimeY()
+    {
+        return posy;
+    }
+    
+    public abstract void dibuja (Graphics g);
+   /*public double accedeArea()
    {
        return area;
    }
@@ -22,14 +40,14 @@ public class Figura
    public void area()
     {
        // System.out.println("UUPS");
-    }
+    }*/
     
     /*public String dimeInfo()
     {
         return "" + area;
     }*/
     
-    @Override
+    /*@Override
     public String toString()
     {
         return "" + area;
@@ -39,5 +57,5 @@ public class Figura
     public boolean equals(Object obj)
     {
         return this.area==((Figura)obj).area;
-    }
+    }*/
 }

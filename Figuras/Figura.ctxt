@@ -1,13 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Figura()
+comment0.params=x\ y
+comment0.target=Figura(int,\ int)
 comment1.params=
-comment1.target=double\ accedeArea()
+comment1.target=int\ dimeX()
 comment2.params=
-comment2.target=void\ area()
-comment3.params=
-comment3.target=java.lang.String\ toString()
-comment3.text=public\ String\ dimeInfo()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ return\ ""\ +\ area;\r\n}
-comment4.params=obj
-comment4.target=boolean\ equals(java.lang.Object)
-numComments=5
+comment2.target=int\ dimeY()
+comment3.params=g
+comment3.target=void\ dibuja(java.awt.Graphics)
+numComments=4

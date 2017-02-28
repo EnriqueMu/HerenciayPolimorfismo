@@ -1,6 +1,7 @@
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.util.ArrayList;
 /**
  * Write a description of class Lienzo here.
  * 
@@ -9,6 +10,13 @@ import java.awt.Graphics2D;
  */
 public class Lienzo extends JPanel
 {
+   private ArrayList<Figura> figuras= new ArrayList <Figura>();
+   
+   public Lienzo()
+   {
+       
+    }
+    
     @Override
     public void paintComponent(Graphics g)
     {
