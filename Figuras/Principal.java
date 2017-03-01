@@ -10,16 +10,16 @@ public class Principal
 {
    public static void main(String [] args)
    {
-       Triangulo t1 = new Triangulo (4,5);
+      //Triangulo t1 = new Triangulo (4,5);
        //t1.area();
        //System.out.println("El area del Triangulo es: " + t1.accedeArea());
        
-       Cuadrado s1 = new Cuadrado (4);
-       s1.area();
+       //Cuadrado s1 = new Cuadrado (4);
+       //s1.area();
        //System.out.println("El area del Cuadrado es: " + s1.accedeArea());
        
-       Circulo c1 = new Circulo(3);
-       Circulo c2 = new Circulo(3);
+      // Circulo c1 = new Circulo(3);
+       //Circulo c2 = new Circulo(3);
 //       c1.area();
        //System.out.println("El area del Circulo es: " + c1.accedeArea());
        
@@ -62,14 +62,16 @@ public class Principal
             System.out.println("El area del "  +  f+" es: "  +  f.accedeArea());
         }*/
         
-        if(c1.equals(t1))
+       /* if(c1.equals(t1))
         {
             System.out.println("Iguales");
         }   
         else
         {
             System.out.println("Diferentes");
-        }
+        }*/
+         Ventana vent = new Ventana(800, 600);
+        vent.setVisible(true);
     }
            
 }

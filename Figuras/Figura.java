@@ -32,6 +32,8 @@ abstract public class Figura
     }
     
     public abstract void dibuja (Graphics g);
+    
+    
    /*public double accedeArea()
    {
        return area;
