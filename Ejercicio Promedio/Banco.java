@@ -6,10 +6,9 @@ import java.util.ArrayList;
  * @version (a version number or a date)
  */
 public class Banco
-{
-    //ArrayList <CuentaBancaria> col = new ArrayList <CuentaBancaria>();
-    
+{ 
     private ArrayList <CuentaBancaria> col;
+    
     public Banco()
     {
         col=new ArrayList <CuentaBancaria>();

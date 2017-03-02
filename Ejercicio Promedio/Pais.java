@@ -9,12 +9,12 @@ public class Pais
 {
    private int habitantes;
    
-   public Pais(int h)
+   public Pais(int hab)
    {
-       habitantes=h;
-  
-    }
-    public float getHabitantes()
+       habitantes=hab;
+   }
+   
+    public int getHabitantes()
     {
         return habitantes;
     }

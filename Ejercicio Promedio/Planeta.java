@@ -14,20 +14,20 @@ public class Planeta
         paises =new ArrayList<Pais>();
     }
     
-    public void agragaPlaneta(Pais p)
+    public void agregaPais(Pais pai)
     {
-        paises.add(p);
+        paises.add(pai);
     }
     
     public float calculaProm()
     {
-        int suma;
+        int suma=0;
         
         for(int i=0;i<paises.size();i++)
         {
             suma=suma + (paises.get(i)).getHabitantes();
         }
-        float prom=suma/paises.size();
+        float prom=(float)suma/(float)paises.size();
         return prom;
     }
 }

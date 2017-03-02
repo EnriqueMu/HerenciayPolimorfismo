@@ -20,18 +20,18 @@ public class Principal
        float prom=b1.calculaSaldo();
        System.out.println(prom);
        
-       Pais p=new Pais();
+       Planeta po=new Planeta();
        
        Pais p1=new Pais(25);
        Pais p2=new Pais(32);
        Pais p3=new Pais(94);
        
-       p=agregaPais(p1);
-       p=agregaPais(p2);
-       p=agregaPais(p3);
+       po.agregaPais(p1);
+       po.agregaPais(p2);
+       po.agregaPais(p3);
        
-       float prom=p.calculaProm();
-       System.out.println(prom);
+       float pro=po.calculaProm();
+       System.out.println(pro);
     
     }
     

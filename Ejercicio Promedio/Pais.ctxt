@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=h
+comment0.params=hab
 comment0.target=Pais(int)
 comment1.params=
-comment1.target=float\ getHabitantes()
+comment1.target=int\ getHabitantes()
 numComments=2

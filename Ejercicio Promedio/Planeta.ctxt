@@ -1,4 +1,8 @@
 #BlueJ class context
-comment0.params=p
-comment0.target=void\ agragaPlaneta(Pais)
-numComments=1
+comment0.params=
+comment0.target=Planeta()
+comment1.params=pai
+comment1.target=void\ agregaPais(Pais)
+comment2.params=
+comment2.target=float\ calculaProm()
+numComments=3
