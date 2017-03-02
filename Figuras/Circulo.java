@@ -7,14 +7,15 @@
  */
 public class Circulo extends Figura
 {
-    private double radio;
+    private float radio;
     
-    public Circulo(float r)
+    public Circulo(int x, int y, float r)
     {
+        super(x,y);
         radio = r;
     }
     
-    @Override
+    /*@Override
     public boolean equals(Object obj)
     {
         if(obj instanceof Circulo)
@@ -37,9 +38,15 @@ public class Circulo extends Figura
         return "Circulo " + super.dimeInfo();
     }*/
     
-    @Override
+    /*@Override
     public String toString()
     {
         return "Circulo con area = " + super.toString();
+    }*/
+    @Override
+    public void dibuja(Graphics g)
+    {
+       Graphics2D g2 = (Graphics2D)g;
+       g2.drawCircle(20,30,60,70);
     }
 }

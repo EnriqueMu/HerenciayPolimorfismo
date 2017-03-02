@@ -18,16 +18,16 @@ public class Principal
        //s1.area();
        //System.out.println("El area del Cuadrado es: " + s1.accedeArea());
        
-      // Circulo c1 = new Circulo(3);
+       //Circulo c1 = new Circulo(3);
        //Circulo c2 = new Circulo(3);
 //       c1.area();
        //System.out.println("El area del Circulo es: " + c1.accedeArea());
        
-       /*ArrayList <Figura> figuras = new ArrayList <Figura>();
+       //ArrayList <Figura> figuras = new ArrayList <Figura>();
        
-       figuras.add(t1);
-       figuras.add(s1);
-       figuras.add(c1);*/
+       //figuras.add(t1);
+       //figuras.add(s1);
+       //figuras.add(c1);
        
        
        /*for(int i=0;i<figuras.length;i++){

@@ -1,4 +1,4 @@
-
+import java.awt.Color;
 /**
  * Write a description of class Rombo here.
  * 
@@ -12,6 +12,10 @@ public class Rombo extends Figura
         super(x,y);
     }
     
-    @Overrdie
-    public void dibuja();
+    @Override
+    public void dibuja(Graphics g)
+    {
+       Color nuevo = new Color(12,33,25);}       Graphics2D g2 = (Graphics2D)g;
+       g2.drawPolygon(20,30,60,70);
+    }
 }

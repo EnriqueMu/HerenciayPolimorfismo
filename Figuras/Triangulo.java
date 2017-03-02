@@ -10,13 +10,14 @@ public class Triangulo extends Figura
    private float base;
    private float altura;
    
-   public Triangulo(float b, float a)
+   public Triangulo(int x, int y, float b, float a)
    {
+       super(x,y);
        base = b;
        altura = a;
     }
     
-    public void area()
+    /*public void area()
     {
         area = base*altura/2;
     }
@@ -25,5 +26,17 @@ public class Triangulo extends Figura
     public String toString()
     {
         return "Triangulo con area = " + super.toString();
+    }*/
+    
+   /* public void dibuja(Graphics g)
+    {
+        Graphics2D
+        g
+    }*/
+     @Override
+    public void dibuja(Graphics g)
+    {
+       Graphics2D g2 = (Graphics2D)g;
+        g2.drawPolygon(30,60,70);
     }
 }
