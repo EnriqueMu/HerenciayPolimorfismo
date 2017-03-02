@@ -1,3 +1,5 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.awt.Color;
 /**
  * Write a description of class Rombo here.
@@ -15,7 +17,8 @@ public class Rombo extends Figura
     @Override
     public void dibuja(Graphics g)
     {
-       Color nuevo = new Color(12,33,25);}       Graphics2D g2 = (Graphics2D)g;
-       g2.drawPolygon(20,30,60,70);
+       Color nuevo = new Color(12,33,25);     
+       Graphics2D g2 = (Graphics2D)g;
+       g2.drawRect(20,30,60,70);
     }
 }

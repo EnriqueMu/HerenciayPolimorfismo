@@ -1,8 +1,7 @@
 #BlueJ class context
-comment0.params=b\ a
-comment0.target=Triangulo(float,\ float)
-comment1.params=
-comment1.target=void\ area()
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
+comment0.params=x\ y\ b\ a
+comment0.target=Triangulo(int,\ int,\ float,\ float)
+comment1.params=g
+comment1.target=void\ dibuja(java.awt.Graphics)
+comment1.text=\ public\ void\ dibuja(Graphics\ g)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ Graphics2D\r\n\ \ \ \ \ \ \ \ g\r\n}
+numComments=2

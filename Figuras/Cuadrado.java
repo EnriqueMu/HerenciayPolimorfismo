@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Cuadrado here.
  * 

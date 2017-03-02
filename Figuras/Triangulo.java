@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Triangulo here.
  * 
@@ -37,6 +38,6 @@ public class Triangulo extends Figura
     public void dibuja(Graphics g)
     {
        Graphics2D g2 = (Graphics2D)g;
-        g2.drawPolygon(30,60,70);
+        g2.fillRect(30,60,70,40);
     }
 }

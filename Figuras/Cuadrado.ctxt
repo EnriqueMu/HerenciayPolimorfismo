@@ -1,8 +1,7 @@
 #BlueJ class context
-comment0.params=l
-comment0.target=Cuadrado(float)
-comment1.params=
-comment1.target=void\ area()
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
+comment0.params=x\ y\ l
+comment0.target=Cuadrado(int,\ int,\ int)
+comment1.params=g
+comment1.target=void\ dibuja(java.awt.Graphics)
+comment1.text=public\ void\ area()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ area\ \=\ lado*lado;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ \ @Override\r\n\ \ \ \ public\ String\ toString()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ return\ "Cuadrado\ con\ area\ \=\ "\ +\ super.toString();\r\n}
+numComments=2

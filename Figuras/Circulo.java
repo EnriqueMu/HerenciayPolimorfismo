@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Circulo here.
  * 
@@ -47,6 +48,6 @@ public class Circulo extends Figura
     public void dibuja(Graphics g)
     {
        Graphics2D g2 = (Graphics2D)g;
-       g2.drawCircle(20,30,60,70);
+       g2.drawOval(20,30,60,70);
     }
 }
