@@ -1,3 +1,35 @@
 #BlueJ package file
-#Tue Mar 07 11:41:31 CST 2017
+dependency1.from=Principal
+dependency1.to=Alumno
+dependency1.type=UsesDependency
+objectbench.height=76
+objectbench.width=668
+package.editor.height=400
+package.editor.width=560
+package.editor.x=591
+package.editor.y=123
+package.numDependencies=1
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
 project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=0
+target1.editor.y=0
+target1.height=50
+target1.name=Alumno
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=90
+target1.y=10
+target2.height=50
+target2.name=Principal
+target2.showInterface=false
+target2.type=ClassTarget
+target2.typeParameters=
+target2.width=80
+target2.x=180
+target2.y=10
