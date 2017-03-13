@@ -19,8 +19,14 @@ public class Lienzo extends JPanel
     } 
     public void actua()
     {
-        //pelota.muevete(this.getBounds());
+        pelota.muevete(this.getBounds());
         this.repaint();
+    }
+    
+    @Override
+    public void paintComponent(Graphics g)
+    {
+        pelota.dibujate(g);
     }
 }
 
